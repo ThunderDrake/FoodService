@@ -1,0 +1,41 @@
+// COLORS
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-accent: #ff5f33;
+  --color-background: #eaeaea;
+
+  // fonts
+  --font-family: "PTRootUI", sans-serif;
+  --font-title-h1: 700 55px / 115% var(--font-family);
+  --font-title-h2: 700 40px / 120% var(--font-family);
+  --font-subtitle: 700 20px / 120% var(--font-family);
+  --font-small: 700 16px / 120% var(--font-family);
+  --font-title-text: 400 20px / 120% var(--font-family);
+  --font-text: 400 16px / 120% var(--font-family);
+  --font-question-title: 500 18px / 120% var(--font-family);
+
+  @media screen and (max-width: 1024px) {
+    --font-title-h1: 700 50px / 115% var(--font-family);
+    --font-title-h2: 700 35px / 120% var(--font-family);
+    --font-subtitle: 700 20px / 120% var(--font-family);
+    --font-small: 700 16px / 120% var(--font-family);
+    --font-title-text: 400 18px / 120% var(--font-family);
+    --font-text: 400 16px / 120% var(--font-family);
+    --font-question-title: 500 18px / 120% var(--font-family);
+  }
+
+  @media screen and (max-width: 425px) {
+    --font-title-h1: 700 40px / 115% var(--font-family);
+    --font-title-h2: 700 30px / 120% var(--font-family);
+    --font-subtitle: 700 17px / 120% var(--font-family);
+    --font-small: 700 15px / 120% var(--font-family);
+    --font-title-text: 400 16px / 120% var(--font-family);
+    --font-text: 400 15px / 120% var(--font-family);
+    --font-question-title: 500 16px / 120% var(--font-family);
+  }
+
+  @media screen and (max-width: 375px) {
+    --font-title-h2: 700 25px / 120% var(--font-family);
+  }
+}

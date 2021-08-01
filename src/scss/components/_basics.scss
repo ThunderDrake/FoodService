@@ -1,0 +1,45 @@
+.basics {
+  margin-bottom: 62px;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px 0;
+    padding: 61px 69px;
+    background-color: #f3f3f3;
+    gap: 52px;
+
+    @media screen and (max-width: 746px) {
+      grid-template-columns: 1fr;
+    }
+
+    @media screen and (max-width: 425px) {
+      padding: 16px 32px;
+    }
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    height: 160px;
+    object-fit: contain;
+
+    &--rotate {
+      transform: matrix(0.96, 0.32, -0.27, 0.95, 0, 0);
+    }
+
+    @media screen and (max-width: 1024px) {
+      height: 120px;
+    }
+
+    @media screen and (max-width: 425px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__descr {
+    margin: 0;
+    opacity: 0.6;
+  }
+}

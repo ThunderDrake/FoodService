@@ -1,0 +1,17 @@
+.section-title {
+  margin: 0 auto;
+  margin-bottom: 48px;
+  max-width: 450px;
+  text-align: center;
+
+  &__subtitle {
+    margin-bottom: 8px;
+    font: var(--font-subtitle);
+    color: var(--color-accent);
+  }
+
+  &__title {
+    margin: 0;
+    font: var(--font-title-h2);
+  }
+}
